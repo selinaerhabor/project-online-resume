@@ -282,7 +282,7 @@ footer .cv-pdf i:hover {
     margin: 0;
 }
 
-.timeline-item:before {
+.timeline-item::before {
     content: attr(dates);
     position: absolute;
     left: 2.5em;
@@ -295,7 +295,7 @@ footer .cv-pdf i:hover {
     margin: 0;
 }
 
-.timeline-item:after {
+.timeline-item::after {
     width: 12px;
     height: 12px;
     display: block;
@@ -303,8 +303,8 @@ footer .cv-pdf i:hover {
     position: absolute;
     left: -6px;
     border-radius: 12px;
-    content: "";
-    
+    content:'';
+    background: #fafafa;
 }
 
 
