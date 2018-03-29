@@ -129,7 +129,7 @@ header {
     letter-spacing: 2px;
 }
 
-/*--------------------------------------------Hover.css */
+/*--------------------------------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
     background: rgba( 0, 0, 0, 0.2);
@@ -143,12 +143,10 @@ h2,
 h3, 
 h4 {
     margin: 0;
-    
 }
 
 .uppercase {
     text-transform: uppercase;
-    
 }
 
 .general-sub {
